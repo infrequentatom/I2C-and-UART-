@@ -135,3 +135,5 @@ cd sim
 iverilog -o uart_sim../rtl/*.v../tb/uart_tb.v
 vvp uart_sim
 gtkwave dump.vcd
+
+
